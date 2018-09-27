@@ -1,0 +1,483 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Fundamentals of Digital Media Production</title>
+    <style>
+        @media screen {
+            h3 {
+                font: "Futura", sans-serif;
+                font-size: 2.2em;
+                background: pink;
+            }
+
+            h4 {
+                font: "Futura", sans-serif;
+                font-size: 1.8em;
+                width: auto;
+            }
+
+            .fun {
+                color: #1a2b3c;
+            }
+
+            #content {
+                font: "Georgia", serif;
+                margin-left: 150px;
+                margin-right: 200px;
+            }
+
+            p,
+            aside {
+                font-size: 1.3em;
+                line-height: 1.3em;
+            }
+
+            li {
+                line-height: 1.3em;
+                font-size: 1.1em;
+                margin-bottom: 9px;
+            }
+
+            a:link,
+            a:visited {
+                background: #fff6e7;
+                color: black;
+            }
+
+            ul>li>ul>li {
+                margin-bottom: 0;
+            }
+
+            .week>h4 {
+                font-size: 1.3em;
+                border-bottom: 1px solid black;
+                background: #fff8a8;
+            }
+
+            .book {
+                height: 300px;
+                box-shadow: 3px 3px 5px #111;
+            }
+
+            .fun {
+                background: black;
+                color: pink;
+            }
+        }
+
+        @media print {
+            h4 {
+                font-size: .8em;
+            }
+
+            h3 {
+                font-size: .9em;
+            }
+
+            body {
+                font-size: .7em;
+                margin: 0;
+            }
+
+            img {
+                display: none
+            }
+        }
+
+        .noprint {
+            display: none;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <section id="content">
+        <h1>film &amp; digital media 170a </h1>
+        <ul>
+            <li>Tu/Th 10:45AM-1:15PM <a href="https://www.google.com/maps/place/Porter+Computer+Lab/@36.9928036,-122.0662255,16z/data=!4m8!1m2!2m1!1sporter+d240!3m4!1s0x808e419e948514af:0x71a8504e16564881!8m2!3d36.9940227!4d-122.0654191">Porter Acad D240</a></li>
+        </ul>
+        <h2>
+            <span class="fun">fun</span>damentals of digital media production: <em>embracing the terrors of indeterminacy</em></h2>
+        <p>Abram Stern (aphid)</p>
+        <ul>
+            <li>Office: Communications 155, tuesday 3-4</li>
+            <li>email: aphid@ucsc.edu</li>
+            <li>phone/sms/signal: 831-224-0334</li>
+            <li>riot/matrix: @aphid:matrix.org</li>
+        </ul>
+        <h4>
+            A HTML version of this syllabus can be found @ http://people.ucsc.edu/~aphid/170a/ </h4>
+
+
+        <h3>approach</h3>
+
+        <p>In this class we will explore the practice of digital and new media art. Together we will take up a practical examination of what is 'fundamental' to digital media practice: the ways in which images, data, sound and video are encoded, manipulated and distributed. This will involve working on projects and concepts together. Ways of making will be inter-informed by ways of seeing and ways of thinking about the computer as a medium of communication, documentation, resistance, and expression.
+        </p>
+        <p>This is primarily a practice-based class. We will be looking at work by other artists and reading texts from a variety of fields (media theory, art history, sociology) that relate to the media we work with. We will spend most of our time making and discussing projects.</p>
+        <h3>
+            course resources </h3>
+        <ul>
+            <li>Class subReddit: <a href="https://www.reddit.com/r/fdm170a2018">https://www.reddit.com/r/fdm170a2018</a></li>
+            <li>Class Matrix channel <a href="https://matrix.to/#/!SppyEXwwpQcWQfDsCw:matrix.org">#fdm170a:matrix.org</a> use <a href="https://riot.im/app">Riot</a> on the web, mobile, or desktop, or whatever other Matrix client you prefer.
+            </li>
+        </ul>
+        <section id="requirements">
+            <h3>
+                requirements </h3>
+            <section id="books">
+                <h4>
+                    readings </h4>
+                <p>
+                    This class has no required textbooks and all of your required readings will be online. However, I recommend budgeting $60-70 for a couple of reference books for the technologies/tools you concentrate on this quarter. A lot of software is free, and the stuff that costs money usually has some kind of trial. You can get a raspberry pi for $35 + shipping, or a good arduino kit for ~$45. If you want more robust web hosting than people.ucsc.edu, there are a lot of options in the $5/mo. range.
+                </p>
+                <p>
+                    There are readings (and occasionally viewings/listenings) assigned for each week. These are intended to provide historical and aesthetic context and a theoretical vocabulary for understanding artworks viewed in class as well as your own.
+                </p>
+                <ul>
+                    <li>Recommended:
+                        <ul>
+                            33dqsq <li>Digital Art (2015 Edition), Christane Paul (~$14 online)</li>
+                            <li>Also see list of online resources on the subreddit</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="software">
+                <h4>
+                    software/technology </h4>
+                <aside>Note: While you will need types of applications (e.g. a text editor, an image manipulation application, and so on), specific applications are neither obligatory nor forbidden. Invest in a USB thumb drive to move media around, or use the 11 terabytes (!!) that are available to @ucsc.edu google drive accounts. </aside>
+                <ul>
+                    <li>A Web Browser: Up to date Firefox and/or Chrome and/or Brave. Recommended: <a href="https://www.google.com/intl/en/chrome/browser/canary.html">Chrome Canary</a> , <a href="http://www.mozilla.org/en-US/firefox/aurora/">Firefox Developer Edition</a>. These versions have support for new and wonderful things with the downside of sometimes being less stable. </li>
+                    <li>A Text Editor, recommendations: <a href="http://brackets.io/">Brackets</a> (free/open source; mac, win, linux) , <a href="http://atom.io">atom</a> (free/open source, mac, win, linux); vi or emacs</li>
+                    <li>A way to move files around ((S)FTP, Git, &amp;c., ssh via the command line...)
+                        <ul>
+                            <li>
+                                <a href="http://cyberduck.io/">cyberduck (mac and win)</a>
+                            </li>
+                            <li>
+                                <a href="https://filezilla-project.org/">filezilla (mac win and linux)</a>
+                            </li>
+                            <li>
+                                <a href="http://git-scm.com/">git</a> </li>
+                        </ul>
+                    </li>
+                    <li>Image Manipulation
+                        <ul>
+                            <li>
+                                <a href="http://gimp.org/">GiMP</a>
+                            </li>
+                            <li>Photoshop</li>
+                            <li>
+                                <a href="http://imagemagick.org/">imageMagick</a>
+                            </li>
+                            <li>
+                                <a href="http://www.krita.org/">krita</a> (more drawy/painty than gimp)</li>
+                        </ul>
+                    </li>
+                    <li>Sound Manipulation
+                        <ul>
+                            <li>
+                                <a href="http://audacity.sourceforge.net">Audacity</a>
+                            </li>
+                            <li>sox</li>
+                            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">web audio api</a></li>
+                        </ul>
+                    </li>
+                    <li>Video Manipulation/Transcoding
+                        <ul>
+                            <li>
+                                <a href="http://ffmpeg.org">ffmpeg</a>
+                            </li>
+                            <li>
+                                <a href="http://libav.org">libav</a>
+                            </li>
+                            <li>
+                                <a href="http://handbrake.fr">handbrake</a>
+                            </li>
+                            <li>
+                                <a href="http://www.mirovideoconverter.com/">Miro Video Converter</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <h3>
+            responsibilities </h3>
+        <h4>evaluation</h4>
+        <ul>
+            <li>seven assignments: 10% x 7 = 70%</li>
+            <li>final project: 15% (project, presentation, and documentation)</li>
+            <li>participation: 15% (critiques, discussions, &amp;c.) </li>
+        </ul>
+        <p>You will automatically receive a failing grade for the class if one of the following apply:</p>
+        <ul>
+            <li>
+                a) You are absent from three class meetings, OR</li>
+            <li>
+                b) You do not submit three weekly projects, OR</li>
+
+            <li>c) You do not submit a final project.</li>
+        </ul>
+
+        <p>
+            All assignments must be completed on time. Late submission of completed assignments will receive no credit. We will discuss student work in class. To be fair to those who have submitted their work on time, it will not be possible to give credit for work that is late without a legitimate excuse.
+        </p>
+        <p>
+            Each project must also be documented. This can take several forms. Things to consider: "how this works" if it isn't apparent in the work; concepts, theories or other works that your project addresses or references, or was inspired by; issues that you had trouble with; tools or ideas you used; tools or ideas you tried but abandoned; what you could have accomplished with a team of highly trained code (or design or whatever) ninjas and an unlimited budget. Include images/screenshots when appropriate. A 'time lapse' of the project's development, sketches, or glitches and accidents it produced during making. Projects that lack documentation will not receive full credit. Feel free to work in 'analog media', but submit digitally; smartphone photos of sketches will suffice. The goal here is to communicate some of your process -- how the work came together (or didn't). Documentation doesn't need to be exhaustive.
+        </p>
+        <p>
+            All code-based assignments should be linted and beautified before being turned in (unless of course you're doing something interesting, maybe obfuscatory code art, that these break). I prefer the <a href="https://github.com/airbnb/javascript/blob/master/README.md">AirBNB style guide</a> (not an endorsement of the site or its service) for JavaScript but will accept any code that is reasonably legible.
+        </p>
+        <h4>general assignment guidelines</h4>
+        <p>
+            Assignment descriptions are intentionally vague. Feel free to interpret things broadly and bounce any ideas you aren't sure of off me and/or your colleagues.
+        </p>
+        <p>
+            Plagiarism, appropriation and copyright: Turning in other people's work as your own is obviously off limits, however you may incorporate others' works into your own under the guidelines of <a href="http://en.wikipedia.org/wiki/Fair_use">Fair Use</a>. If you do include others' works, cite them in your documentation along with justification for your appropriation.
+        </p>
+        <p>
+            Collaboration on assignments (and the Final Project) is fine, even encouraged. However, each student needs to submit documentation separately.
+        </p>
+        <h3>weekly projects</h3>
+        <p>
+            Each week we will be working with a different conceptual methodology and/or technological approach. Projects will be due on Thursdays at 4pm. Web-based projects should be hosted on your <a href="http://its.ucsc.edu/web/hosting/personal-pages-tutorial.html">people.ucsc.edu</a> account or on your own domain. Larger files should be shared via a cloud hosting service (google drive, dropbox), usb stick, etc.
+        </p>
+        <h3>
+            final project </h3>
+        <p>
+            Students are responsible for submitting a final project at the end of the quarter in a digital medium of their choice. Expect an annoucement with details mid-quarter. Projects will be proposed in advance. See schedule.
+        </p>
+
+        <h3>accessibility</h3>
+        <p>I encourage any student with particular needs or anyone seeking disability accommodations to contact the Disability Resource Center: 831-459-2089; drc@ucsc.edu; http://drc.ucsc.edu.</p>
+
+        <h3>electronic devices policy</h3>
+        <p>In-class uses of laptops and other devices for note taking or for in-class work and exercises is permitted. I reserve the right to prohibit use of devices if these privileges are abused. Using devices for anything except notetaking during talks, crits and discussions is prohibitied. During lab/work time, you may use headphones.</p>
+        <h3>project grading rubric</h3>
+
+        <h4>90-92 = A-; 93-95 = A; 96+ = A+ </h4>
+        <p>Excellent. High level of creativity, technical proficiency, and effort.</p>
+
+        <h4>80-82 = B-; 83-85 = B; 86-89 = B+ </h4>
+
+        <p>Good. Ability to grasp ideas and use/mix tools in order to complete assignments. Ability to communicate with others.</p>
+
+        <h4>70-74 = C; 75-79 = C+</h4>
+
+        <p>Needs improvement. Ability to complete most assignments but limited drive to push conceptual or practical skills. </p>
+
+
+        <h4>60-69 = D; 50-59 = F </h4>
+
+        <p>No Pass/Unsatisfactory. Inability or unwillingness to complete assignments or participate in class.</p>
+
+
+        <h3>
+            resources
+        </h3> general web technology documentation (css/dom api/html/js): mdn css / layout: http://learnlayout.com/ http://flexboxfroggy.com/ game mechanics/threejs part 1: https://www.youtube.com/watch?v=PN0uwzgPe3c&feature=share part 2: https://www.youtube.com/watch?v=P2q5M50x5Uw part 3: (doesn't exist yet);
+
+        <h3>schedule</h3>
+
+
+        <div class="week" id="week0">
+            <h4>week 0: Sept 27</h4>
+            <p> &lt;class&gt;
+                hello world - formats and introductions</p>
+            <ul>
+                <li>Class business: syllabus, introductions to ourselves, class topics, concepts and resources</li>
+                <li>Equipment Orientation</li>
+                <li>Assignment (due Oct 2): Get set up with a text editor and (S)FTP client. Set up your people.ucsc.edu account, or github, or your own domain -- wherever you're going to putting your work.</li>
+                <li>readings (recommended): (Everybody Loves) Eric Raymond: <a href="http://www.catb.org/esr/faqs/smart-questions.html">How to Ask Questions the Smart Way</a> (SKIM, LIGHTLY, and in context*)</li>
+                <li>extra credit (2 points, due Oct 9/rolling): Fork the syllabus and have a pull request with improvements approved (my discretion). </li>
+            </ul>
+        </div>
+        <div class="week" id="week1">
+            <h4>
+                week 1: Oct 2, 4</h4>
+            <p> &lt;body&gt; html(5) crash course</p>
+            <ul>
+                <li>assignment 1 due (oct 4): code a hypertext space for your other projects to live in. Make it your own. Consider the history of the personal webpage, the geocities archive, <a href="http://mouchette.org">Mouchette</a>, &amp;<a href="thedatadrive.com/">The Data Drive</a> etc.</li>
+                <li>readings (due oct 2):
+                    <a href="http://monoskop.org/Software_%28exhibition%29">Software: Its New Meaning for Art</a> "The Crafting of Media", Ted Nelson. 16-17 (pdf on right side) and one (1) art documentation of your choice from the same AND
+                    <a href="http://www.coldbacon.com/writing/borges-garden.html">The Garden of Forking Paths</a>, Jorge Luis Borges</li>
+            </ul>
+        </div>
+        <div class="week" id="week2">
+            <h4>
+                week 2: Oct 9, 11
+            </h4>
+            <p>&lt;head&gt; dada, the DOM, javascript and json</p>
+            <ul>
+                <li>viewings: jodi.org %location, alexi shulgin form art, internet archeaology, more</li>
+                <li>readings (due oct 9): shulgin/bookchin, <a href="http://www.easylife.org/netart/">intro to net.art 94-99</a> AND Olia Lialina: <a href="http://contemporary-home-computing.org/art-and-tech/not/">Not Art&amp;Tech</a> AND Tristan Tzara's <a href="http://www.391.org/manifestos/1920-dada-manifesto-feeble-love-bitter-love-tristan-tzara.html">Dada Manifesto on Feeble Love and Bitter Love</a>.
+                </li>
+                <li>assignment (due oct 11): P2 Produce a poem in JSON. It must validate in <a href="http://jsonlint.com">JSONLint</a>.</li>
+            </ul>
+        </div>
+        <div class="week" id="week3">
+            <h4>
+                week 3: Oct 16, 18</h4>
+            <p>data, conceptual imaging &amp; canvas, processing(js) </p>
+            <ul>
+                <li>readings (due oct 16): <a href="http://diveintohtml5.info/canvas.html">Dive into Canvas</a>, Mark Pilgrim AND <a href="http://www.tufts.edu/programs/mma/fah188/sol_lewitt/paragraphs%20on%20conceptual%20art.htm">Paragraphs on Conceptual Art</a>, Sol Lewitt, and excerpts from Orit Halpern's "Beautiful Data"
+                <li>assignment (due oct 18): P3 Make a computational drawing based on a set of instructions given in class..</li>
+            </ul>
+        </div>
+        <div class="week" id="week4">
+            <h4>
+                week 4: Oct 23, 25</h4>
+            <p>copy paste paste paste, Archives and Appropriation, sound and video part 1 </p>
+            <ul>
+                <li>viewings: Keith Sanborn, Work of Art in its Age of Mechanical Reproducibility, RtMark#29.95, others</li>
+                <li>readings (due oct 23): Guy Debord <a href="http://library.nothingness.org/articles/SI/en/display/3">Methods of Detournment</a>
+                </li>
+                <li>Listening at home: <a href="http://www.ubu.com/sound/dj_food.html">Raiding the 20th Century</a>
+                </li>
+                <li>assignment (due oct 25): P4 Pick a tool you've never used before, make something with it, and document your progress.</li>
+            </ul>
+        </div>
+        <div class="week" id="week5">
+            <h4>
+                week 5: Oct 30, Nov 1</h4>
+            <p>
+                format theories, sound and video part 2
+            </p>
+            <ul>
+                <li>watch at home: <a href="http://xiph.org/video/vid1.shtml">A Digital Media Primer for Geeks</a>
+                </li>
+                <li>readings (due oct 30): <a href="http://diveintohtml5.info/video.html">Dive Into [...] Video</a>, Mark Pilgrim., <a href="http://radicalsoftware.org/e/index.html">Pick one article from RADICAL SOFTWARE</a>, or alternatively, read about its <a href="http://rhizome.org/editorial/2015/apr/28/creating-radical-software-personal-account/?ref=journal_p1_post_readbtn">history</a>.
+
+                </li>
+                <li>Recommended: Jonathan Stern, "Compression, a Loose History"</li>
+                <li>assignment (due nov 1): P5 Build a machine that reconfigures, annotates, or remixes audio and/or video.</li>
+            </ul>
+        </div>
+        <div class="week" id="week6">
+            <h4>
+                week 6: Nov 6, 8</h4>
+
+            <p>Glitch, &amp; Failure &amp; Materiality &#9553;&#867;&#847;&#868;&#847;&#869;&#847;&#870;&#847;&#871;&#847;&#872;&#847;&#873;&#847;&#874;&#847;&#875;&#847;&#876;&#847;&#877;&#847;&#878;&#847;&#879;&#847;&#868;&#847;&#873;&#847;&#871;&#847;&#878;&#847;&#869;&#847;&#875;&#868;&#847;&#869;&#847;&#870;&#847;&#847;&#871;&#847;&#877;&#847;&#870;&#847;&#847;&#868;&#847;&#873;&#847;&#871;&#847;&#878;&#847;&#879;&#847;&#868;&#847;&#873;&#847;&#871;&#847;&#878; &#1601;&#868;&#1160;&#869;&#1161;&#870;&#1160;&#871;&#1161;&#872;&#1160;&#873;&#1161;&#874;&#1160;&#875;&#1161;&#876;&#1160;&#877;&#1161;&#878;&#1160;&#879;&#1161;&#872;&#1160;&#876;&#1161;&#871;&#1160;&#867;&#1161;&#872;&#1160;&#871;&#1161;&#879;&#1160;&#878;&#1161;&#877;&#1160;&#868;&#1161;&#870;&#1160;&#869;&#1161;&#871;&#1160;&#873;&#1161;&#877;&#1160;&#872;&#1161;&#867;&#1160;&#874;&#1161;&#871;&#1160;&#867;&#1161;&#872;&#1160;&#877;&#1161;&#878;&emsp;&#8321;&#8312;&#10245;&#1160;&#858;&#859;&#856;&#1161;&#872;&#863;&#861;&#1161;&#806;&#830;&#876;&#1161;&#858;&#769;&#837;&#1161;&#863;&#861;&#864;&#1161;&#857;&#858;&#861;&#1160;&#802;&#806;&#864;&#1161;&#825;&#834;&#837;&#1160;&#841;&#842;&#838;&#1161;&#818;&#776;&#769;&#837;&#1161;&#858;&#859;&#863;&#1161;&#866;&#863;&#865;&#1160;&#854;&#857;&#855;&#1160;&#851;&#863;&#865;&#1161;&#845;&#841;&#859;&#867;&#1160;&#851;&#848;&#830;&#1161;&#874;&#863;&#862;&#1161;&#841;&#843;&#877;&#1160;&#854;&#855;&#879;&#1160;&#857;&#877;&#856;&#1160;&#846;&#848;&#1160;&#841;&#842;&#843;&#1161;&#839;&#841;&#842;&#1160;&#807;&#804;&#831;&#1161;&#806;&#776;&#769;&#849;&#1161;&#768;&#776;&#844;&#1161;&#845;&#843;&#844;&#1161;&#821;&#828;&#829;&#1161;&#827;&#827;&#829;&#1161;&#858;&#827;&#829;&#1161;&#858;&#861;&#864;&#1160;&#807;&#802;&#834;&#1160;&#851;&#849;&#850;&#849;&#1161; &nbsp;</p>
+            <ul>
+                <li>readings (due Nov 6): Rosa Menkman, <a href="http://rosa-menkman.blogspot.com/2010/02/glitch-studies-manifesto.html">Glitch Studies Manifesto</a>(and direct <a href="http://dl.dropbox.com/u/1332959/%20Rosa%20Menkman%20-%20Glitch%20Studies%20Manifesto.pdf">PDF link</a>), <a href="http://zine.electricobjects.com/interviews/andrew-benson">Interview with Andrew Benson</a>, &amp;Hito Steyerl: <a href="http://www.e-flux.com/journal/in-defense-of-the-poor-image/">in defense of the poor image</a></li>
+                <li>assignment (Nov 8): P6 TRANS DUCE/CODE. transform media by iteratively shifting it from one format to an other.</li>
+                <li>DUE Nov 8: FINAL PROJECT PROPOSAL (guidelines provided)</li>
+
+            </ul>
+        </div>
+        <div class="week" id="week7">
+            <h4>
+                weel 7: Nov 13, 15</h4>
+            <p>we can play</p>
+            <ul>
+
+                <li>viewing: Super Kid Fighter, Molleindustria, Escape from the Iron Maiden, Eddo Stern, Peggy Ahwesh, more... </li>
+                <li>readings (due nov 13): CAE/CDL, <a href="http://www.critical-art.net/books/digital/tact7.pdf">Children as Tactical Media Participants</a> (PDF)</li>
+                <li> watch: paolo pedercini's ((get video))</li>
+                <li>assignment (due nov 15): P7 Write a program that reads the poem you wrote earlier this quarter.</li>
+
+            </ul>
+        </div>
+        <div class="week" id="week8">
+            <h4>
+                week 8: Nov 20, 22</h4>
+            <p>new and gnu aesthetics</p>
+            <ul>
+                <li>watch at home (for may 24): <a href="http://booktwo.org/notebook/waving-at-machines/">Waving at the Machines</a>, James Bridle</li>
+                <li>readings (for nov 22): <a href="http://www.wired.com/2012/04/an-essay-on-the-new-aesthetic/">Essay on the New Aesthtetic</a>, Bruce Sterling, and <a href="http://www.metamute.org/editorial/articles/manifesto-theory-%E2%80%98new-aesthetic%E2%80%99">Manifesto for a Theory of the New Aesthetic</a>, Curt Cloninger</li>
+                <li>assignment (for Nov 22): Pick a tool you've never used before, make something with it, and document your progress. (this can relate to your final project)</li>
+            </ul>
+        </div>
+        <div class="week" id="week9">
+            <h4>week 9: Nov 27, <del>Nov 29</del></h4>
+            <p>resisting the bunker: media activism, tactical media</p>
+            <ul>
+                <li>readings (for nov 27)
+                    <a href="#">Critical Engineering Manifesto</a>,
+                    <a href="http://www.nettime.org/Lists-Archives/nettime-l-9705/msg00096.html">abc of tactical media</a>, <a href="http://www.critical-art.net/books/digital/tact5.pdf">Recombinant Theater and Digital Resistance</a>, watch Rita Raley, <a href="https://www.youtube.com/watch?v=t61brrYUz6M">Tacitcal Media as Speculative Practice</a>
+                </li>
+                <li>(Highly) Recommended: watch Ricardo Dominguez, UCSC, 2016 (link forthcoming)</li>
+                <li>assignment (for Nov 29): relax, recoup</li>
+            </ul>
+
+        </div>
+        <div class="week" id="week10">
+            <h4>week 10: Dec 4, 6</h4>
+            <p>&lt;/class&gt;</p>
+            <ul>
+
+            </ul>
+            <p>Dec 4: Lab Time, Dec 6: Art Salon; Final Work-in-Progress Crits</p>
+        </div>
+        <div class="week" id="finals">
+            <h4>PROJECTS DUE: December 11 at noon</h4>
+        </div>
+        <hr>
+        <h2 class="noprint">rules</h2><img src="http://40.media.tumblr.com/d9d071055bfe6902792277f40ae34a04/tumblr_n4j7c5VV0x1qkjpd9o1_540.jpg" class="noprint">
+        <div>
+
+            <h3>DRC STATEMENT</h3>
+
+            <p>UC Santa Cruz is committed to creating an academic environment that supports its diverse student body. If you are a student with a disability who requires accommodations to achieve equal access in this course, please submit your Accommodation Authorization Letter from the Disability Resource Center (DRC) to me privately during my office hours or by appointment, preferably within the first two weeks of the quarter. At this time, I would also like us to discuss ways we can ensure your full participation in the course. I encourage all students who may benefit from learning more about DRC services to contact DRC by phone at 831-459-2089 or by email at drc@ucsc.edu.
+            </p>
+
+
+            <h3>ACADEMIC MISCONDUCT POLICY</h3>
+
+            <p>Academic misconduct includes but is not limited to cheating, fabrication, plagiarism, or facilitating academic dishonesty. Acts of academic misconduct during the course, including plagiarism, can and usually do result in failure of the course, at the sole discretion of the instructor of record. Your case will be reported to the College Provost as per the Academic Integrity guidelines found on the web at:</p>
+
+            <h4>https://www.ue.ucsc.edu/academic_misconduct</h4>
+
+            <p>Information on subject specific research guidelines is available at:</p>
+
+            <h4>http://guides.library.ucsc.edu/</h4>
+
+
+
+            <h3>DISTRIBUTION OF COURSE NOTES</h3>
+
+            <p>Please note that selling, preparing, or distributing for any commercial purpose course lecture notes or video or audio recordings of any course is explicitly forbidden by campus policy, unless authorized by the University in advance—for instance, by the Disability Resource Center, which can assign students who need one a notetaker with a laptop or other recording device – and explicitly permitted by the course instructor in writing. (DRC notetaking accommodations should, and usually will, be announced to the instructor in advance in formal communication from the DRC.)</p>
+
+
+
+            <h3>PRINCIPLES OF COMMUNITY</h3>
+
+
+
+            <p>In this class, we abide by the UCSC Principles of Community, so please familiarize yourself with these important principles.</p>
+
+
+
+            <h3>DIFFICULT MATERIAL</h3>
+
+
+            <p>In Film and Digital Media courses you will often be assigned films or other material that could contain difficult ideas, uncomfortable language, or graphic depictions of sex or violence. You will be asked to treat these portrayals critically, to consider what is being expressed by the maker, or to examine the potential social impact, and to evaluate the works in a given context. Instructors are always happy to speak with you about your work, and might direct you to CAPS (Counseling and Psychological Services) at 831-459-2628 or the Disability Resource Center (drc@ucsc.edu or 831-459-2089) should you need additional support in order to do your best work.
+            </p>
+
+
+
+
+
+            <h3>TITLE IX</h3>
+
+
+            <p>The university cherishes the free and open exchange of ideas and enlargement of knowledge. To maintain this freedom and openness requires objectivity, mutual trust, and confidence; it requires the absence of coercion, intimidation, or exploitation. The principal responsibility for maintaining these conditions must rest upon those members of the university community who exercise most authority and leadership: faculty, managers, and supervisors.</p>
+
+            <p>The university has therefore instituted a number of measures designed to protect its community from sex discrimination, sexual harassment, sexual violence, and other related prohibited conduct. Information about the Title IX Office, the online reporting link (Links to an external site.)Links to an external site., applicable campus resources, reporting responsibilities, the UC Policy on Sexual Violence and Sexual Harassment (Links to an external site.)Links to an external site. and the UC Santa Cruz Procedures for Reporting and Responding to Reports of Sexual Violence and Sexual Harassment can be found at titleix.ucsc.edu. </p>
+
+
+            <p>The Title IX/Sexual Harassment Office is located at 105 Kerr Hall. In addition to the online reporting option (Links to an external site.)Links to an external site., you can contact the Title IX Office by calling 831-459-2462.</p>
+
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
